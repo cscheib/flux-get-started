@@ -18,9 +18,6 @@ spec:
     persistence:
       enabled: false
     resources:
-      requests:
-        memory: 32Mi
-        cpu: 10m
     serviceType: ClusterIP
     mariadb:
       persistence:
