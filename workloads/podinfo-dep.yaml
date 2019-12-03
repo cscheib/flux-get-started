@@ -57,9 +57,3 @@ spec:
             path: /readyz
             port: 9898
         resources:
-          limits:
-            cpu: 1000m
-            memory: 128Mi
-          requests:
-            cpu: 10m
-            memory: 64Mi
